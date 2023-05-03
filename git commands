@@ -1,0 +1,20 @@
+git clone "repository name.git"
+
+git add <filename> = add change
+git commit -m 'commit message specific change made'
+
+git push
+git push -f '-f force'
+
+git branch <branch Name> = create new branch
+git branch = checking list branch
+git checkout <branch name> = switch branch
+
+git restore --staged <file>... to unstage
+
+git status = check changes red unstage green stage'
+git pull = pull changes from repository
+git pull origin <branch Name>
+
+shortcut codes
+git checkout -b = create branch then switch to created new branch

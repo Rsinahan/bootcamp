@@ -19,3 +19,4 @@ git pull origin <branch Name>
 shortcut codes
 git checkout -b = create branch then switch to created new branch
 git fetch = fetch all newly created branch from repository
+git push origin = push created branch into the repository

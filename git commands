@@ -20,3 +20,5 @@ shortcut codes
 git checkout -b = create branch then switch to created new branch
 git fetch = fetch all newly created branch from repository
 git push origin = push created branch into the repository
+
+git branch -m <branch name> = rename current branch name

@@ -1,17 +1,31 @@
-#main{ 
-    background-color: aliceblue;
-    color: azure;
+.main{ 
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     }
-body{
-    background-image: none;
-    background-color: aquamarine;
-    }   
-#logo{
-        background: local;
+body {
+    background-color: beige;
+    font-size: large;
+}   
+.logo{
+        background-color: rgb(96, 16, 226);
      }   
-#banner{
-        background-color: aqua;
-        }
-#loriem{
+.banner{
+        background-color: rgb(224, 61, 75);
+        width: 100%;
+        height: 100%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+.lorem{
         background-color: blue;
         }
+.foot{
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    display: inline;
+}

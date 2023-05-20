@@ -7,11 +7,11 @@ body{
     background-color: aquamarine;
     }   
 #logo{
-
+        background: local;
      }   
 #banner{
-
+        background-color: aqua;
         }
 #loriem{
-
+        background-color: blue;
         }

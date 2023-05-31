@@ -1,31 +1,42 @@
-.main{ 
-    align-self: center;
-    text-align: center;
-    font-size: 50px;
+.maincontainer{ 
+    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
     }
 body {
-    background-color: beige;
-    font-size: large;
+    background-color: rgb(235, 136, 70);
 }   
-.logo{
+.mainlogocontainer{
+        width: 100%;
+        background-color: rgb(136, 105, 223);
+        font-size: 50px;
+}
+.logocontainer{
         background-color: rgb(96, 16, 226);
-     }   
-.banner{
+        width: 50%;
+            }
+.navcontainer{
+        width: 50%;
+        display:flex;
+        flex-direction:row;
+        }
+.bannercontainer{
         background-color: rgb(224, 61, 75);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
-.lorem{
+        width: 100%;
+        font-size: 70px;
+        align-content: center;
+        }
+.contentcontainer{
+        width: 100%;
         background-color: blue;
+        font-size:50px;
         }
 .foot{
     background-color: aqua;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-li{
-    display: inline;
-}
-ol :hover{
-    background-color: bisque;
+nav.div:hover{
+    background-color: rgb(95, 228, 18);
 }

@@ -1,46 +1,20 @@
 body {
-    background-color: rgb(244, 208, 185);
+    background-color: rgb(9, 220, 83);
 }   
-.mainlogocontainer{
-        width: 100%;
-        background-color: rgb(136, 105, 223);
-        font-size: 50px;
-}
-.logocontainer{
-        background-color: rgb(96, 16, 226);
-        width: 50%;
-            }
-.navcontainer{
-        background-color: blueviolet;
-        width: 100%;
-        }
-.bannercontainer{
-        background-color: rgb(224, 61, 75);
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        width: 100%;
-        font-size: 70px;
-        align-content: center;
-        }
-.contentcontainer{
-        width: 100%;
-        background-color: blue;
-        font-size:50px;
-        }
-.foot{
+.footer{
     background-color: aqua;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-nav.div:hover{
-    background-color: rgb(95, 228, 18);
+    border-radius: 20px;
 }
 .contact{
-    background-color: yellow;
+    background-color: rgb(9, 184, 59);
     width:10%;
     float:right;
     text-align-last: center;
     height: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
 
    }
 .about{
@@ -50,6 +24,7 @@ nav.div:hover{
     text-align-last: right;
     height: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
 
     
 }
@@ -61,6 +36,7 @@ nav.div:hover{
     text-align-last: center;
     height: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
     }
 
 .banners{
@@ -69,12 +45,44 @@ nav.div:hover{
     height: 400px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:50px;
+    border-color: rgb(235, 152, 19);
+    border-radius: 20px;
     }
 .message{
     background-color: rgb(245, 250, 251);
-    text-align-last: justify;
+    text-align: center;
     height: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px;
+    border-color: rgb(197, 15, 33);
+    border-radius: 20px;
     }
+.contactcontainer{
+    background-color: rgb(202, 246, 9);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    padding: 5px;
+    
+}
+.logocontainer{
+    background-color: blueviolet;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    float: right;
+}
+.contactcontainer li{
+    display: inline-block;
+    font-size: 20px;
+    padding:px;
+}
+.mainlogocontainer{
+    border-color: rgb(29, 11, 190);
+    border-width: 50px;
+}
+
     

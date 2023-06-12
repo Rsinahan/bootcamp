@@ -1,19 +1,17 @@
 body{
-    display: flex !important;
     background-color:white;
 }
 .maincontainer{
     display: flex;
-   /* background-color: aqua;*/
    flex-wrap: wrap;
 }
 .logocontainer{
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
     justify-content: flex-end;
     gap: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     align-items: center;
 }
 .logocontainer a{
@@ -24,27 +22,28 @@ body{
 .logo{
     background-image: url(./logo.jpg);
     background-size: cover;
-    background-color: aqua;
+    background-color: rgb(175, 233, 233);
     margin: auto;
     padding-left: 25px;
     word-spacing: 10px;
     height: 100px;
     width: 100px;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .bannercontainer{
-    background-color: bisque;
     background-image: url(./forestbackground.jpg);
     background-size: cover;
     display: flex;
-    font-weight: bold;
+    font-weight: 100px;
     justify-content:flex-start;    
     min-height: 200px;
     width: 100%;
     padding: 100px 50px;
     background-repeat: repeat-y;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:aqua;
+    word-spacing: 10px;
+    
 }
 .messagescontainer{
     display: flex;
@@ -52,10 +51,16 @@ body{
     min-height: 250px;
     flex-wrap: wrap;
     margin-top: 15px;
-    background-color: aqua;
+}
 p{
     text-align: center;
 }
 .messages{
-    margin-top: -50px;
+   margin: 0;
+}
+.footercontainer{
+    display: flex;
+    margin-left: 10px;
+    font-weight:bold;
+    padding-top: 10px;
 }

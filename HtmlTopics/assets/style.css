@@ -1,6 +1,6 @@
 
 .container-flex{
-    display-flex;
+    display:flex;
     width: 100%;
 }
 
@@ -17,6 +17,7 @@
 
     && .nav-menu{
         justify-content: end;
+        padding-top: 30px;
     }
 
         && a{
@@ -25,35 +26,46 @@
         padding: 0 20px;
     }
 
-    &&
-    .nav-icon{
+    && .nav-icon{
         background-image: url(../images/logo.jpg);
         background-size: cover;
-        word-spacing: 10px;
         height: 100px;
         width: 100px;
+        margin-left: 20px;
     }
 }
 
 .banner{
     background-image: url(../images/forestbackground.jpg);
     background-size: cover;
-    font-weight: 100px;
+    font-weight: 500px;
     justify-content:flex-start;    
     min-height: 200px;
     width: 100%;
     padding: 100px 50px;
     background-repeat: repeat-y;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:aqua;
     word-spacing: 10px;
     
 }
-.message{
-    justify-content: center;
-    min-height: 250px;
-    flex-wrap: wrap;
+.messages{
+    flex-direction: column;
+    min-height: 25em;
     margin-top: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    && .messages-title{
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    && .messages-content{
+    width: 60em;
+    padding: 0 15px;
+    text-align: center;
+    }
 }
 
 .footer{

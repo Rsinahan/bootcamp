@@ -68,6 +68,44 @@
     }
 }
 
+.services {
+    flex-direction: column;
+    
+    && h2{
+        text-align: center;
+    }
+
+    && .service-content {
+        width: 80em;
+        padding: 0 15px;
+        text-align: center;
+        margin: auto;
+        min-height: 25em;
+        align-items: center;
+    }
+
+    && .services-list {
+        align-items: end;
+    
+        && div{
+            align-items: center;
+            padding: 25px;
+            border: 2px solid #3563cf;
+            margin: 5px;
+            border-radius: 25px;
+        }
+    }
+    
+    && .services-desc {
+        border: 2px solid;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        min-width: 60%;
+        height: 155px;
+    }    
+}
+
 .footer{
     display: flex;
     margin-left: 10px;

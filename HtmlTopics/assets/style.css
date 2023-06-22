@@ -1,5 +1,5 @@
 
-.container-flex{
+.container-flex div{
     display:flex;
     width: 100%;
 }
@@ -70,10 +70,10 @@
 
 .services {
     flex-direction: column;
-    
-    && h2{
-        text-align: center;
-    }
+    min-height: 25em;
+    margin-top: 15px;
+    align-items: center;
+    flex-wrap: wrap;
 
     && .service-content {
         width: 80em;
@@ -104,6 +104,44 @@
         min-width: 60%;
         height: 155px;
     }    
+}
+
+.contact-content {
+    flex-direction: column;
+    min-height: 25em;
+    margin-top: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.contact{
+    align-items: center;
+
+}
+
+.form{
+    width: 100%;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border: 1px solid;
+    align-items: center;
+    color: aqua;
+ 
+    && .fields{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap: 5px;
+
+    }
+
+    && .btns{
+        justify-content:center;
+        margin-top: 15px;
+
+    }
 }
 
 .footer{

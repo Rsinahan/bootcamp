@@ -24,15 +24,19 @@
             <div class="contact-content container-flex">
                <form action="" method="get" class="form">
                     <div class="fields">
-                        <input type="text" name="firstName" id="">
-                        <input type="text" name="lastName" id="">
-                        <input type="number" name="" id="">
-                        <input type="email" name="" id="">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <div class="container-flex">
+                            <input class="txt_fname" type="text" name="firstName" id="" placeholder="Name">
+                            <input class="txt_lname" type="text" name="lastName" id="" placeholder="LastName">
+                        </div>
+                        <div class="container-flex">
+                            <input class="txt_number" type="number" name="" id="" placeholder="contact Number">
+                            <input class="txt_email" type="email" name="" id="" placeholder="Email">
+                        </div>
+                        <textarea class="txt_input" name="" id="" placeholder="Messages"></textarea>
                     </div>
                     <div class="btns container-flex">
-                        <button type="button">Submit</button>
-                        <button type="clear">Cancel</button>
+                        <button type="button">Send</button>
+                        <button type="clear">Clear</button>
                     </div>
                </form>
             </div>

@@ -1,5 +1,5 @@
 
-.container-flex{
+.container-flex {
     display:flex;
     width: 100%;
 }
@@ -65,6 +65,98 @@
     width: 60em;
     padding: 0 15px;
     text-align: center;
+    }
+}
+
+.services {
+    flex-direction: column;
+    min-height: 25em;
+    margin-top: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    && .service-content {
+        width: 80em;
+        padding: 0 15px;
+        text-align: center;
+        margin: auto;
+        min-height: 25em;
+        align-items: center;
+    }
+
+    && .services-list {
+        align-items: end;
+    
+        && div{
+            align-items: center;
+            padding: 25px;
+            border: 2px solid #3563cf;
+            margin: 5px;
+            border-radius: 25px;
+        }
+    }
+    
+    && .services-desc {
+        border: 2px solid;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        min-width: 60%;
+        height: 155px;
+    }    
+}
+
+.contact-content {
+    flex-direction: column;
+    min-height: 25em;
+    margin-top: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.contact{
+    align-items: center;
+}
+
+.form{
+    display:flex;
+    min-height: 200px;
+    margin-top: 100px;
+    justify-content: center;
+    
+    && .fields{
+        display:grid;
+        justify-content: center;
+        gap: 5px;
+        padding: 5px;
+        padding-top: 10px;
+        font-weight: 400;
+        flex-grow: 1;
+
+        && input, textarea {
+            padding: 2px;
+            border-radius: 5px;
+            font-size: 25px;
+            margin: 2px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-right: 10px;
+            
+        }
+    }      
+
+    && .btns{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        && button{
+            padding: 10px 15px;
+            align-items: center;
+            margin-bottom: 10px;
+            margin-right: 5px;
+            color: rgb(230, 138, 27);
+            font-size: 20px;
+        }
     }
 }
 
